@@ -11,3 +11,5 @@ def batch_badge_creator(namelist)
 
   return myArray
 end
+
+assign_rooms()
