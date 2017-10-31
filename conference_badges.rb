@@ -13,4 +13,10 @@ def batch_badge_creator(namelist)
 end
 
 def assign_rooms()
+  myArray = Array.new
+  namelist.each do |name, index|
+    myArray.push("Hello #{name}! You'll be assigned to room #{index + 1}")
+  end
+
+  return myArray
 end
