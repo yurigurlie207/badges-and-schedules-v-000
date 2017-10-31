@@ -23,6 +23,6 @@ end
 
 def printer(namelist)
   batch_badge_creator(namelist).each do |name|
-    puts "#{name}""
+    puts "#{name}"
   end
 end
