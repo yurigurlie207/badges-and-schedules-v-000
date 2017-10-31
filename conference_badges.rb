@@ -22,5 +22,5 @@ def assign_rooms(namelist)
 end
 
 def printer(namelist)
-  puts batch_badge_creator(namelist)
+  batch_badge_creator(namelist).each
 end
