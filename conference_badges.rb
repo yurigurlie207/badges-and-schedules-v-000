@@ -20,3 +20,7 @@ def assign_rooms(namelist)
 
   return myArray
 end
+
+def printer(namelist)
+
+end
