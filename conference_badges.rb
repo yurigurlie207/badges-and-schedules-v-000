@@ -5,4 +5,6 @@ end
 
 def batch_badge_creator(namelist)
 
+  namelist.each do |list|
+  end
 end
