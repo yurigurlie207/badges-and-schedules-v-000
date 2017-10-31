@@ -22,7 +22,11 @@ def assign_rooms(namelist)
 end
 
 def printer(namelist)
+  
   batch_badge_creator(namelist).each do |name|
+    puts "#{name}"
+  end
+  assign_rooms(namelist).each do |name|
     puts "#{name}"
   end
 end
